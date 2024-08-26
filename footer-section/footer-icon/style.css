@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+/* Footer Section Start Hear */
+.footer-section {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.footer-icon-section {
+    height: 45vh;
+    width: calc(100% - 4em);
+    max-width: 90rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.footer-icons .icon {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.7rem;
+    background: #ffffff26;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+
+/* Icon Hover Style */
+.facebook:hover {
+    background-color: #fff;
+    color: #1877F2;
+}
+
+.instagram:hover {
+    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+    color: white;
+}
+
+.linkedin:hover {
+    background-color: #fff;
+    color: #0077B5;
+}
+
+.github:hover {
+    background-color: #fff;
+    color: #171515;
+}
+
+.twitter:hover {
+    background-color: white;
+    color: #1DA1F2;
+}
+
+.products:hover {
+    background-color: #fff;
+    color: #DA552F;
+}
+
+.dribbble:hover {
+    background-color: #fff;
+    color: #ea4c89;
+}
+
+.telegram:hover {
+    background-color: #fff;
+    color: #0088cc;
+}
+
+.youtube:hover {
+    background-color: #fff;
+    color: #FF0000;
+}
+
+/* Footer Section End Hear */
+
+
+
+/* Media Queries For Medium Device */
+@media screen and (max-width: 700px) and (min-width: 360px) {
+    .menu-section-lg {
+        display: none;
+    }
+
+    .menu-section-md {
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .footer-icon-section {
+        height: 55vh;
+    }
+}
+
+
+
+/* Not Supported Device */
+@media screen and (width < 360px) {
+    .not-supported-device {
+        display: flex;
+    }
+
+    .header-section {
+        display: none;
+    }
+
+    .footer-section {
+        display: none;
+    }
+}
